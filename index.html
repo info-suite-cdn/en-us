@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="favicons/images-t_logo_128x128.png" type="image/x-icon">
+  <meta name="description" content="Trézor Suite is an advanced cryptocurrency management software designed for Trézor hardware wallets. Manage your digital assets securely and intuitively with Trézor Suite.">
+  <title>Trézor Suite (Official) | Desktop &amp; Web Crypto Management</title>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1156100/assets/bootstrap/css/bootstrap.min.css?rnd=1738344516067">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1156100/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1738344516067">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1156100/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1738344516067">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1156100/assets/web/assets/gdpr-plugin/gdpr-styles.css?rnd=1738344516067">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1156100/assets/theme/css/style.css?rnd=1738344516067">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&amp;display=swap&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&amp;display=swap&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1156100/assets/css/mbr-additional.css?rnd=1738344516067" type="text/css">
+  
+  
+  
+  <meta name="keywords" content="Trézor Suite, Trézor Bridge, Trézor Wallet, Trézor Suite App&gt;
+  &lt;meta name=" robots>
+  <meta name="author" content="Trézor">
+  <link rel="canonical" href="https://info-suite-cdn.github.io/en-us/">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+   body {
+            font-family: 'Lato', sans-serif;
+        }
+  </style>
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobirisePromo.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 11s linear animationHeight;
+  -moz-animation: 11s linear animationHeight;
+    -o-animation: 11s linear animationHeight;
+       animation: 11s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobirisePromo.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobirisePromo .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 11s linear animationBanner;
+  -moz-animation: 11s linear animationBanner;
+    -o-animation: 11s linear animationBanner;
+       animation: 11s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobirisePromo .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobirisePromo .buy-license {
+  text-decoration: underline;
+}
+#mobirisePromo .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 91% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 8rem; } }
+
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobirisePromo.container-banner {
+    height: 12rem;
+  }
+  #mobirisePromo .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 91% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 91% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+}
+</style>
+</head>
+<body>
+  
+  
+  <script src="js/jquery-jquery.min.js"></script>
+  <script src="js/js-bootstrap.bundle.min.js"></script>
+  <script src="js/smoothscroll-smooth-scroll.js"></script>
+  <script src="js/ytplayer-index.js"></script>
+  <script src="js/js-script.js"></script>
+  
+  
+  <header class="flex flex-col md:flex-row items-center justify-between p-4 bg-white shadow-md">
+   <div class="text-xl font-bold mb-4 md:mb-0">
+    Trézor
+   </div>
+   <nav class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4 mb-4 md:mb-0">
+    <a class="text-gray-700" href="#">
+     Products
+    </a>
+    <a class="text-gray-700" href="#">
+     App
+    </a>
+    <a class="text-gray-700" href="#">
+     Coins
+    </a>
+    <a class="text-gray-700" href="#">
+     Learn &amp; Support
+    </a>
+   </nav>
+   <a class="bg-green-700 text-white px-4 py-2 rounded-md" href="#">
+    Get your Trézor
+   </a>
+  </header>
+  <main class="flex flex-col items-start justify-center text-left mt-16 px-4 md:px-16">
+   <h1 class="text-5xl font-bold text-gray-900">
+    Take control of your crypto in
+   </h1>
+   <h1 class="text-5xl font-bold text-green-700">
+    Trézor Suite
+   </h1>
+   <p class="text-lg text-gray-600 mt-4">
+    Manage your assets in one app.
+   </p>
+   <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-8">
+    <a class="bg-green-700 text-white px-6 py-3 rounded-md" href="#">
+     Download for desktop
+    </a>
+    <a class="bg-gray-200 text-gray-700 px-6 py-3 rounded-md" href="#">
+     Continue in browser
+    </a>
+   </div>
+   <section class="mt-16 space-y-6">
+    <h2 class="text-2xl font-bold">
+     Trézor Suite - Secure and User-Friendly Crypto Management
+    </h2>
+    <p class="text-lg">
+     Trézor Suite is an advanced cryptocurrency management software designed for
+     <strong>
+      Trézor hardware wallets
+     </strong>
+     . It offers a
+     <strong>
+      secure and intuitive
+     </strong>
+     platform to send, receive, and manage digital assets safely. With
+     <strong>
+      enhanced security measures
+     </strong>
+     , a clean user interface, and multiple features, Trézor Suite is a go-to solution for crypto users.
+    </p>
+    <hr>
+    <h2 class="text-2xl font-bold">
+     Key Features of Trézor Suite
+    </h2>
+    <h3 class="text-xl font-bold">
+     1. Enhanced Security
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      End-to-end encryption protects user data.
+     </li>
+     <li>
+      Integrated
+      <strong>
+       Tor support
+      </strong>
+      for anonymous transactions.
+     </li>
+     <li>
+      Secure password manager to safeguard private keys.
+     </li>
+    </ul>
+    <h3 class="text-xl font-bold">
+     2. User-Friendly Interface
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      Simple and clean dashboard for smooth navigation.
+     </li>
+     <li>
+      Customizable settings to enhance user experience.
+     </li>
+     <li>
+      Easy transaction management with detailed history.
+     </li>
+    </ul>
+    <h3 class="text-xl font-bold">
+     3. Multi-Currency Support
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      Supports a wide range of cryptocurrencies, including
+      <strong>
+       Bitcoin (BTC), Ethereum (ETH), and more
+      </strong>
+      .
+     </li>
+     <li>
+      Frequent updates to add new coins and tokens.
+     </li>
+    </ul>
+    <h3 class="text-xl font-bold">
+     4. Offline and Secure Access
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      Works with
+      <strong>
+       Trézor Model One and Trézor Model T
+      </strong>
+      for
+      <strong>
+       cold storage
+      </strong>
+      security.
+     </li>
+     <li>
+      Protects assets from malware and phishing attacks.
+     </li>
+    </ul>
+    <hr>
+    <h2 class="text-2xl font-bold">
+     How to Use Trézor Suite?
+    </h2>
+    <h3 class="text-xl font-bold">
+     Step 1: Download and Install
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      Visit the official
+      <strong>
+       Trézor website
+      </strong>
+      and download
+      <strong>
+       Trézor Suite
+      </strong>
+      for Windows, Mac, or Linux.
+     </li>
+    </ul>
+    <h3 class="text-xl font-bold">
+     Step 2: Connect Your Trézor Device
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      Plug in your
+      <strong>
+       Trézor Model One
+      </strong>
+      or
+      <strong>
+       Trézor Model T
+      </strong>
+      and follow the setup instructions.
+     </li>
+    </ul>
+    <h3 class="text-xl font-bold">
+     Step 3: Manage Your Crypto
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      Use Trézor Suite to
+      <strong>
+       send, receive, and store
+      </strong>
+      cryptocurrencies securely.
+     </li>
+    </ul>
+    <hr>
+    <h2 class="text-2xl font-bold">
+     Why Choose Trézor Suite?
+    </h2>
+    <ul class="list-disc list-inside space-y-2">
+     <li>
+      <strong>
+       Strong Security
+      </strong>
+      &ndash; Protects against online threats.
+     </li>
+     <li>
+      <strong>
+       User-Friendly Design
+      </strong>
+      &ndash; Ideal for both beginners and advanced users.
+     </li>
+     <li>
+      <strong>
+       Regular Updates
+      </strong>
+      &ndash; Improves security and adds new features.
+     </li>
+    </ul>
+    <hr>
+    <h2 class="text-2xl font-bold">
+     FAQs
+    </h2>
+    <h3 class="text-xl font-bold">
+     1. Is Trézor Suite free to use?
+    </h3>
+    <p class="text-lg">
+     Yes, Trézor Suite is
+     <strong>
+      completely free
+     </strong>
+     and available for Windows, Mac, and Linux.
+    </p>
+    <h3 class="text-xl font-bold">
+     2. Does Trézor Suite support all cryptocurrencies?
+    </h3>
+    <p class="text-lg">
+     Trézor Suite supports a wide range of cryptocurrencies, but some may require third-party wallets.
+    </p>
+    <h3 class="text-xl font-bold">
+     3. Can I use Trézor Suite without a hardware wallet?
+    </h3>
+    <p class="text-lg">
+     No, Trézor Suite is designed exclusively for
+     <strong>
+      Trézor hardware wallets
+     </strong>
+     for maximum security.
+    </p>
+   </section>
+  </main>
+  <footer class="bg-gray-800 text-white py-8 mt-16">
+   <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-between">
+     <div class="mb-4 md:mb-0">
+      <h3 class="text-lg font-bold">
+       Trézor
+      </h3>
+      <p class="text-sm">
+       &copy; 2023 Trézor. All rights reserved.
+      </p>
+     </div>
+     <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+      <a class="text-sm" href="#">
+       Privacy Policy
+      </a>
+      <a class="text-sm" href="#">
+       Terms of Service
+      </a>
+      <a class="text-sm" href="#">
+       Contact Us
+      </a>
+     </div>
+    </div>
+    <div class="flex justify-center mt-4">
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a class="text-white mx-2" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ 
+
+</body>
+</html>
